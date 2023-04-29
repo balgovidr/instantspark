@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "733749835380",
+    "project_id": "instantspark-ec2b8",
+    "storage_bucket": "instantspark-ec2b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733749835380:android:a1643a7417ceedd8da0321",
+        "android_client_info": {
+          "package_name": "com.sbapps.instantspark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733749835380-pvn5f1k0lht1lg11rtu5cjskqat3q8es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXruJ7USASd4hQFS_cB0uGO5RGgQnJGuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733749835380-pvn5f1k0lht1lg11rtu5cjskqat3q8es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
