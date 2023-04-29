@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.sbapps.instantspark.app-mergeDebugResources-21:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\balgo\\.gradle\\caches\\transforms-3\\2338ee1a1d5e648b5d9d19e2e43143da\\transformed\\appcompat-1.4.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

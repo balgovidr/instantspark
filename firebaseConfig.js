@@ -1,11 +1,10 @@
+/* eslint-disable prettier/prettier */
 // import firebase from 'firebase/compat/app';
 // import 'firebase/compat/auth';
 // import 'firebase/compat/firestore';
 // import "firebase/compat/storage";
-import { initializeApp } from 'firebase/app';
-import { getAuth } from "firebase/auth";
-import { getFirestore, initializeFirestore} from "firebase/firestore";
-import { getStorage } from "firebase/storage";
+import { initializeApp } from '@firebase/app';
+import { getFirestore, initializeFirestore} from "@firebase/firestore";
 
 // Optionally import the services that you want to use
 // import {...} from "firebase/auth";
