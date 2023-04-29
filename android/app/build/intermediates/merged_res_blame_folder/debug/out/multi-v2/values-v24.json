@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.sbapps.instantspark.app-mergeDebugResources-21:/values-v24/values-v24.xml",
+            "outputFile": "com.sbapps.instantspark.app-mergeDebugResources-33:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\balgo\\.gradle\\caches\\transforms-3\\2338ee1a1d5e648b5d9d19e2e43143da\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\balgo\\.gradle\\caches\\transforms-3\\eecbf3b35bcb50e3830619fff5012e70\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\balgo\\.gradle\\caches\\transforms-3\\73d15b23394d6457a2ba43f39a21d56d\\transformed\\appcompat-1.4.2\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

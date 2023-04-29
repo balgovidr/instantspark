@@ -6,91 +6,334 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-9        android:targetSdkVersion="33" />
+9        android:targetSdkVersion="31" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:5:3-75
+11-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:5:20-73
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:3:5-67
-12-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:3:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\balgo\.gradle\caches\transforms-3\f3c25853cb5ecb1ba86cb55f6a45cc32\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\balgo\.gradle\caches\transforms-3\f3c25853cb5ecb1ba86cb55f6a45cc32\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:5:5-24:19
-16        android:name="com.sbapps.instantspark.MainApplication"
-16-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:6:7-38
-17        android:allowBackup="false"
-17-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:10:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.7.0] C:\Users\balgo\.gradle\caches\transforms-3\6e1c0b72cad447a8659c390c8037e7d6\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:8:7-41
-21        android:label="@string/app_name"
-21-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:7:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:9:7-52
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme"
-24-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:11:7-38
-25        android:usesCleartextTraffic="true" >
-25-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\debug\AndroidManifest.xml:8:9-44
-26        <activity
-26-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\debug\AndroidManifest.xml:11:9-111
-27            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-27-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\debug\AndroidManifest.xml:11:19-83
-28            android:exported="false" />
-28-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\debug\AndroidManifest.xml:11:84-108
-29        <activity
-29-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:12:7-23:18
-30            android:name="com.sbapps.instantspark.MainActivity"
-30-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:13:9-37
-31            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-31-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:15:9-118
-32            android:exported="true"
-32-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:18:9-32
-33            android:label="@string/app_name"
-33-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:14:9-41
-34            android:launchMode="singleTask"
-34-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:16:9-40
-35            android:windowSoftInputMode="adjustResize" >
-35-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:17:9-51
-36            <intent-filter>
-36-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:19:9-22:25
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:20:13-65
-37-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:20:21-62
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:21:13-73
-39-->C:\Users\balgo\Documents\Websites\instantspark_v3\android\app\src\main\AndroidManifest.xml:21:23-70
-40            </intent-filter>
-41        </activity>
+12-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:3:3-64
+12-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.VIBRATE" /> <!-- These require runtime permissions on M -->
+13-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:6:3-63
+13-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:6:20-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:8:3-77
+14-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:8:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:9:3-78
+15-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:9:20-76
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:10:3-77
+16-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:10:20-74
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:11:3-63
+17-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:11:20-60
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:12:3-58
+19-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:12:17-55
+20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:13:3-68
+20-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:13:17-65
+21    <uses-feature android:name="android.hardware.audio.output" />
+21-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:14:3-64
+21-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:14:17-61
+22    <uses-feature android:name="android.hardware.microphone" />
+22-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:15:3-62
+22-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:15:17-59
+23
+24    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+24-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:16:3-78
+24-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:16:20-75
+25    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+25-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:17:3-77
+25-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:17:20-74
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:18:3-69
+26-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:18:20-66
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:19:3-66
+27-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:19:20-63
+28    <uses-permission
+28-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:20:3-93
+29        android:name="android.permission.BLUETOOTH"
+29-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:20:20-63
+30        android:maxSdkVersion="30" />
+30-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:20:64-90
+31    <uses-permission
+31-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:21:3-99
+32        android:name="android.permission.BLUETOOTH_ADMIN"
+32-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:21:20-69
+33        android:maxSdkVersion="30" />
+33-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:21:70-96
+34    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> <!-- END OPTIONAL PERMISSIONS -->
+34-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:22:3-74
+34-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:22:20-71
+35    <queries>
+35-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:25:3-32:13
+36
+37        <!-- Support checking for http(s) links via the Linking API -->
+38        <intent>
+38-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:27:5-31:14
+39            <action android:name="android.intent.action.VIEW" />
+39-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:28:7-59
+39-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:28:15-56
+40
+41            <category android:name="android.intent.category.BROWSABLE" />
+41-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:29:7-68
+41-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:29:17-65
 42
-43        <provider
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\8db161776635076677f4fbd7af040274\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\8db161776635076677f4fbd7af040274\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-45            android:authorities="com.sbapps.instantspark.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\8db161776635076677f4fbd7af040274\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\8db161776635076677f4fbd7af040274\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-47            <meta-data
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\8db161776635076677f4fbd7af040274\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\8db161776635076677f4fbd7af040274\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\8db161776635076677f4fbd7af040274\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\balgo\.gradle\caches\transforms-3\d4ac2fa32ad4d3dad17ef755dda26f28\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\balgo\.gradle\caches\transforms-3\d4ac2fa32ad4d3dad17ef755dda26f28\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\balgo\.gradle\caches\transforms-3\d4ac2fa32ad4d3dad17ef755dda26f28\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-53        </provider>
-54    </application>
+43            <data android:scheme="https" />
+43-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:30:7-38
+43-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:30:13-35
+44        </intent>
+45        <!-- Query open documents -->
+46        <intent>
+46-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:18
+47            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+47-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-79
+47-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-76
+48        </intent>
+49        <intent>
+49-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:18
+50
+51            <!-- Required for picking images from the camera roll if targeting API 30 -->
+52            <action android:name="android.media.action.IMAGE_CAPTURE" />
+52-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-73
+52-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:21-70
+53        </intent>
+54        <intent>
+54-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-23:18
 55
-56</manifest>
+56            <!-- Required for picking images from the camera if targeting API 30 -->
+57            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+57-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-80
+57-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:21-77
+58        </intent>
+59        <intent>
+59-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:10:9-16:18
+60            <action android:name="android.intent.action.GET_CONTENT" />
+60-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:11:13-72
+60-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:11:21-69
+61
+62            <category android:name="android.intent.category.OPENABLE" />
+62-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:13:13-73
+62-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:13:23-70
+63
+64            <data android:mimeType="*/*" />
+64-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:30:7-38
+65        </intent>
+66    </queries>
+67
+68    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+68-->[com.facebook.flipper:flipper:0.125.0] C:\Users\balgo\.gradle\caches\transforms-3\b0e8bba8d83ebd60fb06db9c10f491ad\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+68-->[com.facebook.flipper:flipper:0.125.0] C:\Users\balgo\.gradle\caches\transforms-3\b0e8bba8d83ebd60fb06db9c10f491ad\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+69    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+69-->[com.android.installreferrer:installreferrer:1.0] C:\Users\balgo\.gradle\caches\transforms-3\595ed31feaf869d8be6b2faac98b5ec9\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+69-->[com.android.installreferrer:installreferrer:1.0] C:\Users\balgo\.gradle\caches\transforms-3\595ed31feaf869d8be6b2faac98b5ec9\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+70
+71    <application
+71-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:34:3-44:17
+72        android:name="com.sbapps.instantspark.MainApplication"
+72-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:34:16-47
+73        android:allowBackup="false"
+73-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:34:162-189
+74        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+74-->[androidx.core:core:1.7.0] C:\Users\balgo\.gradle\caches\transforms-3\e5f205371712802ac7429e95cd380534\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+75        android:debuggable="true"
+76        android:icon="@mipmap/ic_launcher"
+76-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:34:81-115
+77        android:label="@string/app_name"
+77-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:34:48-80
+78        android:roundIcon="@mipmap/ic_launcher_round"
+78-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:34:116-161
+79        android:theme="@style/AppTheme"
+79-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:34:190-221
+80        android:usesCleartextTraffic="true" >
+80-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:34:222-257
+81        <meta-data
+81-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:35:5-103
+82            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+82-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:35:16-67
+83            android:value="YOUR-APP-URL-HERE" />
+83-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:35:68-101
+84        <meta-data
+84-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:36:5-112
+85            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+85-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:36:16-68
+86            android:value="YOUR-APP-SDK-VERSION-HERE" />
+86-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:36:69-110
+87
+88        <activity
+88-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:37:5-42:16
+89            android:name="com.sbapps.instantspark.MainActivity"
+89-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:37:15-43
+90            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+90-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:37:77-154
+91            android:exported="true"
+91-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:37:276-299
+92            android:label="@string/app_name"
+92-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:37:44-76
+93            android:launchMode="singleTask"
+93-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:37:155-186
+94            android:theme="@style/Theme.App.SplashScreen"
+94-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:37:230-275
+95            android:windowSoftInputMode="adjustResize" >
+95-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:37:187-229
+96            <intent-filter>
+96-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:38:7-41:23
+97                <action android:name="android.intent.action.MAIN" />
+97-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:39:9-60
+97-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:39:17-58
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:40:9-68
+99-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:40:19-66
+100            </intent-filter>
+101        </activity>
+102        <activity
+102-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:43:5-106
+103            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+103-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:43:15-79
+104            android:exported="false" />
+104-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:43:80-104
+105
+106        <provider
+106-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-30:20
+107            android:name="expo.modules.filesystem.FileSystemFileProvider"
+107-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
+108            android:authorities="com.sbapps.instantspark.FileSystemFileProvider"
+108-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-74
+109            android:exported="false"
+109-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+110            android:grantUriPermissions="true" >
+110-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-47
+111            <meta-data
+111-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:70
+112                android:name="android.support.FILE_PROVIDER_PATHS"
+112-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-67
+113                android:resource="@xml/file_system_provider_paths" />
+113-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-67
+114        </provider>
+115
+116        <activity
+116-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-29:59
+117            android:name="com.canhub.cropper.CropImageActivity"
+117-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-64
+118            android:exported="true"
+118-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:35:13-36
+119            android:theme="@style/Base.Theme.AppCompat" /> <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+119-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-56
+120        <provider
+120-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-39:20
+121            android:name="expo.modules.imagepicker.fileprovider.ImagePickerFileProvider"
+121-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-89
+122            android:authorities="com.sbapps.instantspark.ImagePickerFileProvider"
+122-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-75
+123            android:exported="false"
+123-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-37
+124            android:grantUriPermissions="true" >
+124-->[:expo-image-picker] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-47
+125            <meta-data
+125-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:70
+126                android:name="android.support.FILE_PROVIDER_PATHS"
+126-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-67
+127                android:resource="@xml/image_picker_provider_paths" />
+127-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-67
+128        </provider>
+129
+130        <meta-data
+130-->[:expo-modules-core] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-10:89
+131            android:name="org.unimodules.core.AppLoader#react-native-headless"
+131-->[:expo-modules-core] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-79
+132            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+132-->[:expo-modules-core] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-86
+133
+134        <provider
+134-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:23:9-31:20
+135            android:name="com.canhub.cropper.CropFileProvider"
+135-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:24:13-63
+136            android:authorities="com.sbapps.instantspark.cropper.fileprovider"
+136-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:25:13-72
+137            android:exported="false"
+137-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:26:13-37
+138            android:grantUriPermissions="true" >
+138-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:27:13-47
+139            <meta-data
+139-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:70
+140                android:name="android.support.FILE_PROVIDER_PATHS"
+140-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-67
+141                android:resource="@xml/library_file_paths" />
+141-->[:expo-file-system] C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-67
+142        </provider> <!-- This is here because the library did not update yet to Android 12 so we force the exported value when merging manifests -->
+143        <activity
+143-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:38:9-45:20
+144            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+144-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:39:13-99
+145            android:exported="true"
+145-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:40:13-36
+146            android:theme="@android:style/Theme" >
+146-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:41:13-49
+147            <intent-filter>
+147-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:42:13-44:29
+148                <action android:name="android.intent.action.MAIN" />
+148-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:39:9-60
+148-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:39:17-58
+149            </intent-filter>
+150        </activity>
+151        <activity
+151-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:46:9-53:20
+152            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+152-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:47:13-95
+153            android:exported="true"
+153-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:48:13-36
+154            android:theme="@android:style/Theme" >
+154-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:49:13-49
+155            <intent-filter>
+155-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:42:13-44:29
+156                <action android:name="android.intent.action.MAIN" />
+156-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:39:9-60
+156-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:39:17-58
+157            </intent-filter>
+158        </activity>
+159        <activity
+159-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:54:9-61:20
+160            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+160-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:55:13-103
+161            android:exported="true"
+161-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:56:13-36
+162            android:theme="@android:style/Theme.Dialog" >
+162-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:57:13-56
+163            <intent-filter>
+163-->[com.github.CanHub:Android-Image-Cropper:4.3.0] C:\Users\balgo\.gradle\caches\transforms-3\90d78285a12ae94d83298684ff39d8b1\transformed\jetified-Android-Image-Cropper-4.3.0\AndroidManifest.xml:42:13-44:29
+164                <action android:name="android.intent.action.MAIN" />
+164-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:39:9-60
+164-->C:\Users\balgo\Documents\Websites\instantspark_v4 - Copy\android\app\src\main\AndroidManifest.xml:39:17-58
+165            </intent-filter>
+166        </activity>
+167
+168        <provider
+168-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\2b78af2157d144f01f3ccf5e35fbcfb1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+169            android:name="androidx.startup.InitializationProvider"
+169-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\2b78af2157d144f01f3ccf5e35fbcfb1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+170            android:authorities="com.sbapps.instantspark.androidx-startup"
+170-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\2b78af2157d144f01f3ccf5e35fbcfb1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+171            android:exported="false" >
+171-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\2b78af2157d144f01f3ccf5e35fbcfb1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+172            <meta-data
+172-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\2b78af2157d144f01f3ccf5e35fbcfb1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+173                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+173-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\2b78af2157d144f01f3ccf5e35fbcfb1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+174                android:value="androidx.startup" />
+174-->[androidx.emoji2:emoji2:1.0.0] C:\Users\balgo\.gradle\caches\transforms-3\2b78af2157d144f01f3ccf5e35fbcfb1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+175            <meta-data
+175-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\balgo\.gradle\caches\transforms-3\364ced9379cf596e14f7c400abae0735\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+176                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+176-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\balgo\.gradle\caches\transforms-3\364ced9379cf596e14f7c400abae0735\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+177                android:value="androidx.startup" />
+177-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\balgo\.gradle\caches\transforms-3\364ced9379cf596e14f7c400abae0735\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+178        </provider>
+179    </application>
+180
+181</manifest>

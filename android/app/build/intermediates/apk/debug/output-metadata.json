@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.sbapps.instantspark",
+  "applicationId": "com.instantsparkv4",
   "variantName": "debug",
   "elements": [
     {
