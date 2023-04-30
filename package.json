@@ -1,5 +1,5 @@
 {
-  "name": "instantspark",
+  "name": "instantspark_v",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -36,12 +36,10 @@
     "react-native-safe-area-context": "^4.5.0",
     "react-native-screens": "^3.19.0",
     "react-native-svg": "^13.8.0",
-    "react-native-web": "^0.18.12",
-    "react-native-webrtc": "^106.0.5"
+    "react-native-webrtc": "106.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "react-scripts": "^5.0.1"
+    "@babel/core": "^7.12.9"
   },
   "private": true
 }

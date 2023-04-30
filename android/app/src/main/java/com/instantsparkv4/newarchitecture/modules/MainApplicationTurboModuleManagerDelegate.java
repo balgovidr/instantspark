@@ -1,4 +1,4 @@
-package com.sbapps.instantspark.newarchitecture.modules;
+package com.instantsparkv4.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

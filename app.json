@@ -1,12 +1,11 @@
 {
   "expo": {
-    "name": "instantspark",
-    "slug": "instantspark",
+    "name": "instantspark_v4",
+    "slug": "instantspark_v4",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
   },
-  "web": "react-scripts start",
-  "name": "instantspark"
+  "name": "instantspark_v4"
 }

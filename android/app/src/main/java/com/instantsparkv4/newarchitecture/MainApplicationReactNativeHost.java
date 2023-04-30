@@ -1,4 +1,4 @@
-package com.sbapps.instantspark.newarchitecture;
+package com.instantsparkv4.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -20,9 +20,9 @@ import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.sbapps.instantspark.BuildConfig;
-import com.sbapps.instantspark.newarchitecture.components.MainComponentsRegistry;
-import com.sbapps.instantspark.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.instantsparkv4.BuildConfig;
+import com.instantsparkv4.newarchitecture.components.MainComponentsRegistry;
+import com.instantsparkv4.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

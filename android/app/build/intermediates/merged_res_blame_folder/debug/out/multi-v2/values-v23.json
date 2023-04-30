@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sbapps.instantspark.app-mergeDebugResources-33:/values-v23/values-v23.xml",
+            "outputFile": "com.instantsparkv4.app-mergeDebugResources-33:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\balgo\\.gradle\\caches\\transforms-3\\5cf8a78f5c1dc439de80b4c1645bdba7\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

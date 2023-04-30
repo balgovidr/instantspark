@@ -1,4 +1,4 @@
-package com.sbapps.instantspark;
+package com.instantsparkv4;
 
 import android.os.Build;
 import android.os.Bundle;

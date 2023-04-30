@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sbapps.instantspark.app-mergeDebugResources-33:/values-pa/values-pa.xml",
+            "outputFile": "com.instantsparkv4.app-mergeDebugResources-33:/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\balgo\\.gradle\\caches\\transforms-3\\e5f205371712802ac7429e95cd380534\\transformed\\core-1.7.0\\res\\values-pa\\values-pa.xml",

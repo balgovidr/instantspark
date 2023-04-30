@@ -1,4 +1,4 @@
-package com.sbapps.instantspark.newarchitecture.components;
+package com.instantsparkv4.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
